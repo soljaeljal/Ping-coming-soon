@@ -55,7 +55,7 @@ body {
     }
 
     img {
-        max-width: 530px;
+        max-width: 600px;
         width: 80%;
         margin-bottom: 40px;
     }
@@ -64,11 +64,11 @@ body {
         #text {
         padding: 15px 20px;
         width: 50vw;
-        max-width: 300px;
-        border: 0.5px solid $neutralgray;
+        max-width: 350px;
+        border: 0.5px solid $secondaryblue;
         border-radius: 30px;
         margin: 10px 0 50px 0;
-        color: $neutralblue;
+        color: $neutralgray;
         }
 
         p {
@@ -109,14 +109,14 @@ body {
 .socials {
     i {
         color: $primarycolor;
-        border: 0.5px solid $neutralgray;
+        border: 0.5px solid $secondaryblue;
         border-radius: 60px;
         padding: 0.5em 0.5em;
         margin: 20px 4px;
-        width: 14px;
-        height: 14px;
+        width: 12px;
+        height: 12px;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     i:hover {

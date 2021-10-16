@@ -52,7 +52,7 @@ body {
 }
 
 .container img {
-  max-width: 530px;
+  max-width: 600px;
   width: 80%;
   margin-bottom: 40px;
 }
@@ -60,11 +60,11 @@ body {
 .container .email #text {
   padding: 15px 20px;
   width: 50vw;
-  max-width: 300px;
-  border: 0.5px solid #969696;
+  max-width: 350px;
+  border: 0.5px solid #c2d3ff;
   border-radius: 30px;
   margin: 10px 0 50px 0;
-  color: #101a23;
+  color: #969696;
 }
 
 .container .email p {
@@ -103,14 +103,14 @@ body {
 
 .socials i {
   color: #4f7df3;
-  border: 0.5px solid #969696;
+  border: 0.5px solid #c2d3ff;
   border-radius: 60px;
   padding: 0.5em 0.5em;
   margin: 20px 4px;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .socials i:hover {
