@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+$primarycolor:  hsl(223, 87%, 63%);
+$secondaryblue:  hsl(223, 100%, 88%);
+$hoverblue: hsl(223, 87%, 70%);
+$secondaryred:  hsl(354, 100%, 66%);
+$neutralgray: hsl(0, 0%, 59%);
+$neutralblue: hsl(210, 36%, 10%);
+$bodyfont: 20px;
+$smallfont: 12px;
+$fontfamily: 'Libre Franklin', sans-serif;
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    color: $neutralgray;
+    
+    a {
+        color: $primarycolor;
+    }
+
+    a:hover {
+        color: $hoverblue;
+    }
+}
+
+body {
+    font-size: $bodyfont;
+    font-family: $fontfamily;
+    color: $neutralblue;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #logo {
+        width: 80px;
+    }
+
+    h1 {
+        font-weight: 300;
+        padding: 0;
+        margin: 0;
+        color: $neutralgray
+    }
+
+    h2 {
+        font-size: $bodyfont;
+        font-weight: 300;
+    }
+
+    img {
+        max-width: 530px;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .email {
+        #text {
+        padding: 15px 20px;
+        width: 50vw;
+        max-width: 300px;
+        border: 0.5px solid $neutralgray;
+        border-radius: 30px;
+        margin: 10px 0 50px 0;
+        color: $neutralblue;
+        }
+
+        p {
+            display: none;
+            color: $secondaryred;
+            font-style: italic;
+            font-size: $smallfont;
+            margin: -45px 0 30px 30px;
+        }
+    }
+
+    .smallfont {
+        font-size: $smallfont;
+        color: $neutralgray;
+    }
+}
+
+.bold {
+    font-weight: 700;
+    color: $neutralblue;
+}
+
+.btn {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: $primarycolor;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 10px 4px 16px $secondaryblue;
+}
+
+.btn:hover {
+    background-color: $hoverblue;
+}
+
+.socials {
+    i {
+        color: $primarycolor;
+        border: 0.5px solid $neutralgray;
+        border-radius: 60px;
+        padding: 0.5em 0.5em;
+        margin: 20px 4px;
+        width: 14px;
+        height: 14px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    i:hover {
+        color: #fff;
+        border-color: $primarycolor;
+        background-color: $primarycolor;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .btn {
+        padding: 15px 40px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .container {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+
+        h1 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+    
+        h2 {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }    
+
+        .email {
+            width: 300px;
+
+            #text {
+            padding: 10px 20px;
+            width: 260px;
+            margin: 10px 0 10px 0;
+            }
+        }
+
+        .btn {
+            width: 300px;
+            margin: 0 0 60px 0;
+            padding: 10px;
+        }
+
+        #logo {
+            width: 60px;
+            margin-bottom: 30px;
+        }
+
+        img {
+        width: 300px;
+        margin-bottom: 0px;
+        }
+    }
+}
